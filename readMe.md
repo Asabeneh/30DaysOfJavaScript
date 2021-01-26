@@ -205,7 +205,7 @@ console.log('Hello, World!')
 
 ##### Console.log with Multiple Arguments
 
-The **conole.log()** function can take multiple parameters separated by comma. The syntax looks like as follows:**console.log(param1, param2, param3)**
+The **console.log()** function can take multiple parameters separated by comma. The syntax looks like as follows:**console.log(param1, param2, param3)**
 
 ![console log multiple arguments](./images/console_log_multipl_arguments.png)
 
@@ -231,15 +231,15 @@ We add comments to our code. Comments are very important to make code more reada
 
 **Example: Multiline Comment**
 
-/_
+/*
 This is a multiline comment  
  Multiline comments can take multiple lines  
  JavaScript is the language of the web  
- _/
+ */
 
 ##### Syntax
 
-Programming languages are similar to human languages. English or many other language uses words, phrases, sentences,compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is _the structure of statements in a computer language._ Programing languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
+Programming languages are similar to human languages. English or many other language uses words, phrases, sentences, compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is _the structure of statements in a computer language._ Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
 
 ![Error](images/raising_syntax_error.png)
 
@@ -377,7 +377,7 @@ Open the browser console to see the output from the console.log()
 ### External Script
 
 Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
-First, we should create an external JavaScript file with .js extension. All files ending with .js extension. All files ending with .js extension are JavaScript files. Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
+First, we should create an external JavaScript file with .js extension. All files ending with .js extension are JavaScript files. Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
 
 ```js
 console.log('Welcome to 30DaysOfJavaScript')
@@ -405,8 +405,8 @@ External scripts in the _body_:
     <title>30DaysOfJavaScript:External script</title>
   </head>
   <body>
-    //it could be in the header or in the body // Here is the recommended place
-    to put the external script
+    <!-- it could be in the header or in the body --> 
+    <!-- Here is the recommended place to put the external script -->
     <script src="introduction.js"></script>
   </body>
 </html>
@@ -463,21 +463,22 @@ A collection of one or more characters between two single quotes, double quotes,
 'Finland'
 'JavaScript is a beautiful programming language'
 'I love teaching'
-'I hope you are enjoying the first day'`We can also create a string using a backtick`
-;('A string could be just as small as one character as big as many pages')
+'I hope you are enjoying the first day'
+`We can also create a string using a backtick`
+('A string could be just as small as one character or as big as many pages')
 ```
 
 ### Booleans
 
-A boolean value is either True or False. Any comparisons return a boolean value, which is either true or false.
+A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
 
 A boolean data type is either a true or false value.
 
 **Example:**
 
 ```js
-true // if the light on ,the value is true
-false // if the light off, the value is false
+true // if the light is on, the value is true
+false // if the light is off, the value is false
 ```
 
 ### Undefined
@@ -486,7 +487,7 @@ In JavaScript, if we don't assign a value to a variable, the value is undefined.
 
 ```js
 let firstName
-console.log(firstName) //not defined, because it is not assigned to a value yet
+console.log(firstName) // undefined, because it is not assigned to a value yet
 ```
 
 ### Null
@@ -531,7 +532,7 @@ Multiline commenting:
     let age = 100;
     let isMarried = true;
     This is a Multiple line comment
-    */
+*/
 ```
 
 ## Variables
@@ -610,7 +611,7 @@ Asabeneh Yetayeh Finland Helsinki 100 True
 // Declaring variables with number values
 let age = 100 // age in years
 const gravity = 9.81 // earth gravity  in m/s2
-const boilingPoint = 100 // water boiling point, temperature in oC
+const boilingPoint = 100 // water boiling point, temperature in degree Celsius
 const PI = 3.14 // geometrical constant
 
 console.log(gravity, boilingPoint, PI)
