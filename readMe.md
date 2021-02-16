@@ -323,7 +323,7 @@ Create a project folder on your desktop or in any location, name it 30DaysOfJS a
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfScript:Inline Script</title>
   </head>
@@ -342,7 +342,7 @@ First, let us write on the head part of the page.
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfScript:Internal Script</title>
     <script>
@@ -357,7 +357,7 @@ This is how we write an internal script most of the time. Writing the JavaScript
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfScript:Internal Script</title>
   </head>
@@ -387,7 +387,7 @@ External scripts in the _head_:
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfJavaScript:External script</title>
     <script src="introduction.js"></script>
@@ -400,7 +400,7 @@ External scripts in the _body_:
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>30DaysOfJavaScript:External script</title>
   </head>
@@ -425,7 +425,7 @@ console.log('Hello, World!')
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Multiple External Scripts</title>
   </head>
